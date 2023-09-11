@@ -1,0 +1,48 @@
+/* Estilo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('contact.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo de los botones de contacto */
+.contact-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: transparent; /* Fondo transparente */
+    color: #007bff;
+    text-decoration: none;
+    border: 2px solid rgba(0, 123, 255, 0.7); /* Borde transparente con color de contorno */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-buttons a:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilo para los iconos de redes sociales */
+.contact-buttons i {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 5px;
+    transition: color 0.3s ease;
+}
+
+.contact-buttons a:hover i {
+    color: #0056b3;
+}
